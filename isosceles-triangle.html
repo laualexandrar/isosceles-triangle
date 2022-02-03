@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isosceles Triangle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Isosceles Triangle Height</h1>
+    </header>
+    <section class="main-container">
+        <form class="form-container">
+            <label for="triangle-One-side-input" class= "text-container">
+                Enter the first side of the triangle: 
+            </label>              
+            <input type="number" id="triangle-One-side-input" placeholder="Side 1">
+            <br>
+            <label for="triangle-two-side-input" class= "text-container">
+                Enter the second side of the triangle: 
+            </label>
+            <input type="number" id="triangle-two-side-input" placeholder="Side 2">
+            <br>
+            <label for="triangle-base-input" class= "text-container">    
+                Enter the base of the triangle: 
+            </label>
+            <input type="number" id="triangle-base-input" placeholder="Base">
+            <br>
+            <button type="button" onclick="calculateHeightIsosceles()" class="button">
+                Calculate Height
+            </button>
+        </form>
+
+    </section>
+    <script src="./isosceles-triangle.js"></script>
+</body>
+</html>
